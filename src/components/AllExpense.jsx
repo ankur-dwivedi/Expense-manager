@@ -60,7 +60,7 @@ function AllExpense(props) {
   <label for="inputName" className="sr-only">Category</label>
   <input type="text" id="inputName" name="name" onChange={handleChange} value={signup.name} className="form-control" placeholder="Category" required autofocus/>
  
-  <button className="btn btn-lg btn-dark btn-block" type="button" style={{marginTop:"3rem"}} onClick={submit}>Add</button>
+  <button className="btn btn-lg btn-dark btn-block" type="button" style={{marginTop:"3rem"}} onClick={submit}>View</button>
 
 </form>
 {data}
